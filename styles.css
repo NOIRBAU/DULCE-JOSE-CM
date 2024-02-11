@@ -396,8 +396,29 @@ hr {
     padding: 20px 5px;
 }
 
+/* CARATULA ONDAS */
+.caratula-ondas {
+    height: 100%;
+    background-image: url(./assets/13.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
 
-
+/* FOOTER */
+.invChic {
+    background-color: #FAF8F3;
+}
+.invChic img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.invChic p{
+    margin: 10px 0 15px 0;
+}
 
 
 
