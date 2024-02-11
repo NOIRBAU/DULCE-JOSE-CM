@@ -445,6 +445,7 @@ hr {
 }
 .map-responsive {
     overflow: hidden;
+    width: 100%;
     height: 250px;
 }
 
