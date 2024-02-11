@@ -368,7 +368,7 @@ p {
     width: 100vw;
 }
 .caratula {
-    height: 300px;
+    height: 400px;
 }
 .ico--gr {
     width: 80px;
@@ -426,7 +426,7 @@ hr {
 }
 /* DONDE Y CUANDO*/
 .donde-foto {
-    height: 200px;
+    height: 400px;
 }
 .donde-foto img {
     max-width: 90%;
