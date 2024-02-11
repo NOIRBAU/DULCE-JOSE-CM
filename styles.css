@@ -1,0 +1,445 @@
+:root {
+    --light-color: #DFE6ED;
+    --color1: #B3C3D4;
+    --color2: #2C3367;
+    --color3: #F4E5D2;
+    --color4: rgb(94,85,94);
+    --dark-color: #371F76;
+    --black: #1c1c1c;
+    --white-color: #fbfcfc;
+    --z-modal: 1000;
+}
+/*GENÉRICOS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 1px;
+    transition: all 0.35s linear;
+    font-size: 19px;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+}
+.caja {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.caratula {
+    height: 700px;
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrarV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+h1 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+h2 {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+h6 {
+    font-family: "Italianno", cursive;
+    font-size: 34px;
+    text-align: center;
+    margin: 5px auto;
+}
+p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: var(--color2);
+}
+.color--blanco {
+    color: var(--white-color);
+}
+hr {
+    color: white;
+    width: 250px;
+}
+.sombra {
+    -webkit-box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.30);
+    -moz-box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.30);
+    box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.30);
+}
+.boton {
+    background: transparent;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.50);
+    -moz-box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.50);
+    box-shadow: 2px 4px 10px 3px rgba(0,0,0,0.50);
+    border-radius: 10px;
+    border: 1px solid var(--white-color);
+    padding: 10px 15px;
+    margin: 15px auto;
+}
+.titSecc {
+    flex-direction: column;
+}
+.titSecc img {
+    width: 600px;
+}
+.texto--esp{
+    margin: 8px 0;
+}
+.ico--gr {
+    width: 150px;
+    margin: 10px;
+}
+.ico--p {
+    height: 70px;
+    margin: 10px 0;
+}
+/* PORTADA */
+.portada {
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 35%;
+    overflow: hidden;
+    margin: auto;
+}
+.portada__info {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    height: 88vh;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portada__info-contenido {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    padding: 25px 0;
+}
+.portada__info img {
+    width: 160px;
+    height: 150px;
+    margin: 0 auto;
+}
+.nosCasamos {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.infoContenedor {
+    width: 90%;
+    flex-direction: column;
+}
+
+/* FRASE */
+.frase {
+    background-color: var(--color1);
+    padding: 10px 5px;
+    margin: 0 auto;
+}
+
+/* SAVE THE DATE */
+.saveTheDate {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/4.jpg);
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 32%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.agendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.saveTheDate img {
+    width: 80%;
+    margin-top: 40px;
+}
+
+/* PADRES */
+.padres {
+    background-color: var(--light-color);
+}
+.padres-flores {
+    width: 100%;
+    height: fit-content;
+    background-image: url(./assets/floresA.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+}
+.padres-principal {
+    background-image: url(./assets/wall1.png);
+    padding: 30px 25px;
+}
+.cont-col {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col--gru {
+    width: 50%;
+}
+.col--gru img{
+    width: 80%;
+}
+
+/* NOSOTROS */
+.nosotros {
+    background-color: var(--color2);
+    padding: 30px 0 0 0;
+}
+.nosotros-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nosotrosFoto{
+    width: 50%;
+}
+
+/* DONDE Y CUANDO */
+.donde-cuando {
+    background-image: url(./assets/wall1.png);
+    padding-bottom: 35px;
+}
+.donde-foto {
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.donde-foto img {
+    width: 60%;
+    margin: 30px 0;
+}
+.donde-info {
+    width: 100%;
+    margin: 0 auto;
+}
+.donde-cont {
+    width: 70%;
+    margin-top: -120px;
+    border-radius: 15px;
+}
+.lugares-foto {
+    height: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./assets/recepcion.jpg);
+    background-position: 60% 10%;
+    background-size: cover;
+    border-radius: 15px 10px 0 0;
+    padding-top: 20px;
+}
+.lugares-foto h1 {
+    margin: 0px;
+}
+
+/* CARÁTULA1 */
+.caratula1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 20%;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.caratula1-frase {
+    font-family: "Allura", cursive;
+    font-size: 30px;
+    line-height: .9;
+    margin-bottom: 7px;
+}
+
+/* DETALLES BODA */
+.contVes {
+    background-color: var(--color1);
+    margin-bottom: 15px;
+    height: 150px;
+}
+.contVes img {
+    height: 150px;
+    margin: 0 auto;
+}
+.detallesBoda {
+    background-color: var(--color2);
+    padding: 20px 0 0 0;
+}
+.caja-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px 2px 5px;
+}
+/* CARÁTULA2*/
+.caratula2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 35%;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BREAK POINTS */
+
+@media only screen and (max-width: 768px) {
+    *{
+        font-size: 14px;
+    }
+h1 {
+    font-size: 22px;
+}
+h6 {
+    font-size: 28px;
+    line-height: .9;
+}
+p {
+    font-size: 16px;
+    line-height: 1.1;
+}
+.caja {
+    width: 100vw;
+}
+.caratula {
+    height: 300px;
+}
+.ico--gr {
+    width: 80px;
+}
+.ico--p {
+    height: 50px;
+}
+/* PORTADA */
+.portada__info img {
+    width: 100px;
+    height: 105px;
+}
+.infoContenedor {
+    width: 100%;
+  }
+.portada h5 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+/* FRASE */
+.frase {
+    padding: 5px 5px;
+    margin: 0 auto;
+}
+/* SAVE THE DATE */
+.saveTheDate img{
+    margin-top: 10px;
+}
+hr {
+    width: 200px;
+}
+/* PADRES */
+.padres-flores {
+    padding: 40px 15px;
+}
+.padres-principal {
+    padding: 15px 10px;
+}
+.titSecc img {
+    width: 200px;
+}
+.col--gru {
+    width: 100%;
+    margin-top: 10px;
+}
+.col--gru {
+    order: 1;
+}
+.col--del {
+    order: 2;
+}
+/* NOSOTROS */
+.nosotrosFoto {
+    width: 90%;
+}
+/* DONDE Y CUANDO*/
+.donde-foto {
+    height: 200px;
+}
+.donde-foto img {
+    max-width: 90%;
+}
+.donde-cont {
+    width: 85%;
+    margin-top: -60px;
+}
+.lugares-foto {
+    height: 150px;
+}
+/* CARATULA 1*/
+.caratula1-frase {
+    font-size: 23px;
+}
+}
