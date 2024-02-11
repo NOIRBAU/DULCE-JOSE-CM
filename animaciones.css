@@ -200,7 +200,7 @@
   width: 0rem;
   height: 0rem;
   opacity: .5;
-  box-shadow:  0 0 .7em #53403A;
+  box-shadow:  0 0 .7em var(--color1);
   border-radius: 50%;
   cursor: pointer;
   transition: .2s;
