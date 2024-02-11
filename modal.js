@@ -1,21 +1,14 @@
-/*=============== SHOW MODAL ===============*/
-const showModal = (openButton, modalContent) =>{
-    const openBtn = document.getElementById(openButton),
-    modalContainer = document.getElementById(modalContent)
-    
-    if(openBtn && modalContainer){
-        openBtn.addEventListener('click', ()=>{
-            modalContainer.classList.add('show-modal')
-        })
-    }
-}
-showModal('open-modal','modal-container')
-
-/*=============== CLOSE MODAL ===============*/
-const closeBtn = document.querySelectorAll('.close-modal')
-
-function closeModal(){
-    const modalContainer = document.getElementById('modal-container')
-    modalContainer.classList.remove('show-modal')
-}
-closeBtn.forEach(c => c.addEventListener('click', closeModal))
+var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+          modal.style.display = "block";
+      }
+      span.onclick = function() {
+          modal.style.display = "none";
+      }
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
