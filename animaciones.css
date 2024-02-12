@@ -16,7 +16,7 @@
   justify-content: center;
   align-items: center;
   animation: whoosh-away 1s ease-in-out;
-  animation-delay: 3.5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
 }
 
