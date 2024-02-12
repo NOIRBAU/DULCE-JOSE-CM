@@ -14,7 +14,7 @@
 
 input {
     border: none;
-    background: #1e1e1e;
+    background: var(--color4);
     outline: none;
     color: #fff;
     padding: 0.5rem 2.5rem;
@@ -65,7 +65,7 @@ input::placeholder {
 }
 
 .weather__forecast {
-    background: #1e1e1e;
+    background: var(--color4);
     display: inline-block;
     padding: 5px 10px;
     border-radius: 30px;
@@ -99,7 +99,7 @@ input::placeholder {
 .weather__card {
     display: flex;
     align-items: center;
-    background: #1e1e1e;
+    background: var(--color4);
     padding: 10px;
     border-radius: 10px;
 }
