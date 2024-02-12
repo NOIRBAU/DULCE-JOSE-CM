@@ -304,9 +304,6 @@ hr {
 .lugares-foto h1 {
     margin: 0px;
 }
-.map-responsive {
-    overflow: hidden;
-}
 .conf-asistencia {
     width: 100%;
     margin-top: 15px;
@@ -444,10 +441,19 @@ hr {
     margin-top: -80px;
     margin-bottom: 10px;
 }
+.map-responsive2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .map-responsive2 {
     width: 100%;
     height: 230px;
     overflow: hidden;
+    position: relative;
 }
 .noviosFoto {
     width: 50%;
