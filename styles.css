@@ -449,6 +449,9 @@ hr {
     height: 230px;
     overflow: hidden;
 }
+.noviosFoto {
+    width: 50%;
+}
 
 /* CARRUSEL */
 .galeria {
@@ -652,6 +655,9 @@ hr {
 .fotoHosp {
     width: 220px;
     height: 190px;
+}
+.noviosFoto {
+    width: 90%;
 }
 
 /* CARRUSEL */
