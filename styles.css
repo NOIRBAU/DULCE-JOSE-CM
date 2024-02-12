@@ -316,6 +316,16 @@ hr {
     margin-bottom: 7px;
 }
 
+/* CARRUSEL */
+.galeria {
+    background-image: url(./assets/wall2.png);
+    padding: 20px 0px 10px 0px;
+    overflow: hidden;
+}
+.floresAdo {
+    width: 300px;
+}
+
 /* FOGATADA */
 .fondo-madera {
     background-image: url(./assets/madera1.png);
@@ -400,7 +410,7 @@ hr {
 /* CARATULA ONDAS */
 .caratula-ondas {
     height: 100%;
-    background-image: url(./assets/13.jpg);
+    background-image: url(./assets/10.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -420,7 +430,6 @@ hr {
 .invChic p{
     margin: 10px 0 15px 0;
 }
-
 
 
 
@@ -537,5 +546,11 @@ hr {
 /* CARATULA 1*/
 .caratula1-frase {
     font-size: 23px;
+}
+
+/* CARRUSEL */
+.floresAdo {
+    width: 200px;
+    margin-top: 10px;
 }
 }
