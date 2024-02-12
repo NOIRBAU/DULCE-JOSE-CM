@@ -296,6 +296,14 @@ hr {
 .map-responsive {
     overflow: hidden;
 }
+.conf-asistencia {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 5px 10px 5px;
+}
+.texto-conf {
+    margin-top: 5px;
+}
 
 /* CARÁTULA1 */
 .caratula1 {
