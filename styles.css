@@ -403,6 +403,19 @@ hr {
     align-items: center;
 }
 
+/* CARÁTULA 3*/
+.caratula3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 35%;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
 /* CARRUSEL */
 .galeria {
     background-image: url(./assets/wall2.png);
@@ -411,6 +424,19 @@ hr {
 }
 .floresAdo {
     width: 300px;
+}
+
+/* CARÁTULA 4*/
+.caratula4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./assets/9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 35%;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 /* FOGATADA */
