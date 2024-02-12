@@ -250,7 +250,8 @@ hr {
     align-items: center;
 }
 .nosotrosFoto{
-    width: 50%;
+    width: 100%;
+    margin: 20px 0;
 }
 
 /* DONDE Y CUANDO */
@@ -503,7 +504,7 @@ hr {
 }
 /* NOSOTROS */
 .nosotrosFoto {
-    width: 90%;
+    margin: 10px 0;
 }
 /* DONDE Y CUANDO*/
 .donde-foto {
