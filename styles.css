@@ -416,6 +416,29 @@ hr {
     align-items: center;
 }
 
+/* HOSPEDAJE */
+.contHosp {
+    width: 600px;
+    position: relative;
+    padding: 15px 8px;
+    margin: 80px auto 30px auto;
+    border: solid var(--white-color) 1px;
+}
+.fotoHosp {
+    width: 400px;
+    height: 240px;
+    background-image: url(./assets/hospedaje.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+.map-responsive2 {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+}
+
 /* CARRUSEL */
 .galeria {
     background-image: url(./assets/wall2.png);
@@ -574,7 +597,7 @@ hr {
 .nosotrosFoto {
     margin: 10px 0;
 }
-/* DONDE Y CUANDO*/
+/* DONDE Y CUANDO */
 .donde-foto {
     height: 400px;
 }
@@ -610,6 +633,16 @@ hr {
 .instaFlores {
     padding: 20px 10px;
 }
+
+/* HOSPEDAJE */
+.contHosp {
+    width: 90%;
+}
+.fotoHosp {
+    width: 220px;
+    height: 190px;
+}
+
 /* CARRUSEL */
 .floresAdo {
     width: 200px;
