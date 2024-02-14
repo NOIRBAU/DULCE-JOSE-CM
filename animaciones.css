@@ -15,8 +15,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: whoosh-away 1s ease-in-out;
-  animation-delay: 3s;
+  animation: whoosh-away 2s ease-in-out;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
 }
 
