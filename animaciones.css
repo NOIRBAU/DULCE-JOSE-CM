@@ -84,7 +84,7 @@
   pointer-events: none;
   opacity: 0;
   transition: opacity 1s ease;
-  transition-delay: 5s;
+  transition-delay: 4s;
 }
 
 /* CONTADOR */
