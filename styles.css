@@ -236,7 +236,9 @@ hr {
 }
 .padres-principal {
     padding: 30px 25px;
-    background-color: var(--white-color);
+    background-image: url(./assets/white-waves.png);
+    background-repeat: repeat;
+    background-size: contain;
 }
 .cont-col {
     display: flex;
@@ -266,6 +268,11 @@ hr {
 }
 
 /* DONDE Y CUANDO */
+.donde-cuando {
+    background-image: url(./assets/white-waves.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
 .donde-foto {
     width: 100%;
     height: 500px;
@@ -465,6 +472,9 @@ hr {
 .galeria {
     padding: 10px 0px 10px 0px;
     overflow: hidden;
+    background-image: url(./assets/white-waves.png);
+    background-repeat: repeat;
+    background-size: contain;
 }
 .floresAdo {
     width: 300px;
