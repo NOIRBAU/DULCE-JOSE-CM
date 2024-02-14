@@ -1,7 +1,7 @@
 .load__container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to right top, #2c3367, #475583, #66799f, #8a9eb9, #b3c3d4);
+  background-image: url(./assets/wall1.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,7 @@
 .envelope-wrapper{
   position: relative;
   height: 200px;
-  width: 200px;
+  width: 280px;
   animation: fly-down 1s ease-in-out;
 }
 
