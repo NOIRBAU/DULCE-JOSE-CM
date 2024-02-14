@@ -391,6 +391,11 @@ hr {
     font-size: 20px;
     font-weight: 400;
 }
+.codigoQR {
+    width: 150px;
+    height: 150px;
+    margin: 8px 0 10px 0;
+}
 
 /* DETALLES BODA */
 .centrarV2 {
