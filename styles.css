@@ -499,6 +499,9 @@ hr {
 }
 
 /* FOGATADA */
+.fogatadaDisplay {
+    display: none;
+}
 .fondo-madera {
     background-image: url(./assets/madera1.png);
     background-position: top;
