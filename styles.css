@@ -151,6 +151,10 @@ hr {
     background-position: 15% 35%;
     overflow: hidden;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .portada__info {
     width: 100%;
@@ -161,6 +165,7 @@ hr {
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow: hidden;
 }
 .portada__info-contenido {
     width: 100%;
